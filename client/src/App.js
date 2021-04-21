@@ -14,7 +14,6 @@ const App = props => {
     <ThemeProvider theme={theme} >
       <div>
         <NavBar />
-        Hello World!
       </div>
     </ThemeProvider>
   )
