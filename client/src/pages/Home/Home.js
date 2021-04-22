@@ -1,8 +1,6 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import { Container, Grid, Typography } from '@material-ui/core'
-import NavBar from '../../components/NavBar'
-import Jumbotron from '../../components/Jumbotron'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -44,7 +42,7 @@ const Home = () => {
   return (
     <div className={classes.root}>
       <Grid container className={classes.grid}>
-        <Jumbotron />
+        
       </Grid>
 
     </div>
